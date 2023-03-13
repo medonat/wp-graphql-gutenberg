@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Plugin Name: WP GraphQL Gutenberg
+ * Plugin Name: MO GraphQL Gutenberg
  * Plugin URI: https://github.com/pristas-peter/wp-graphql-gutenberg
- * Description: Enable blocks in WP GraphQL.
+ * Description: Forke WP GraphQL Gutenberg / Enable blocks in WP GraphQL.
  * Author: pristas-peter
  * Author URI:
  * Version: 0.4.1
