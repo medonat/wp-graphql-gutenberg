@@ -18,7 +18,7 @@ class Block implements ArrayAccess
         foreach ($blocks as $block) {
             if (empty($block['blockName'])) {
 
-                if (wp_json_encode($block['innerHTML']) === '"\n\n"') {
+                if (empty($block['innerHTML']) || wp_json_encode($block['innerHTML']) === '"\n\n"') {
                     continue;
                 }
 
